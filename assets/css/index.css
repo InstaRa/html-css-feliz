@@ -100,10 +100,3 @@ nav > a::before {
 .actions h1 {
     margin-bottom: 28px;
 }
-
-.actions h2 {
-    font-size: 30px;
-    text-shadow: 4px 4px 0 #000;
-    font-family: 'Press Start 2P', cursive;
-    color: #FFFFFF;
-}
