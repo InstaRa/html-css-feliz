@@ -92,20 +92,18 @@ nav > a::before {
 .actions > .titles {
     background-color: #3A4042;
     padding: 40px;
-    text-shadow: 4px 4px 0 #000;
-    font-family: 'Press Start 2P', cursive;
     margin-bottom: 38px;
     box-shadow:  10px 10px 0 #000;
     width: 100%;
 }
 
 .actions h1 {
-    font-size: 40px;
-    color: #F25A70;
     margin-bottom: 28px;
 }
 
 .actions h2 {
     font-size: 30px;
+    text-shadow: 4px 4px 0 #000;
+    font-family: 'Press Start 2P', cursive;
     color: #FFFFFF;
 }
