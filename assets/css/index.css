@@ -13,7 +13,8 @@ nav {
     align-items: center;
 }
 
-a {
+.button,
+nav > a {
     font-size: 20px;
     font-weight: 500;
     font-family: "Fira Code";
@@ -22,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-a::before {
+nav > a::before {
     content: '';
     display: inline-block;
     width: 10px;
@@ -31,6 +32,7 @@ a::before {
     margin-right: 10px;
 }
 
+.button,
 #button {
     background-color: #F25A70;
     display: inline-block;
@@ -42,6 +44,68 @@ a::before {
     transition: transform 100ms ease-in-out;
 }
 
+.button:hover,
 #button:hover {
     transform: scale(1.1)
+}
+
+.button {
+    margin: 0;
+}
+
+.button + .button {
+    margin-left: 30px;
+}
+
+/* BANNER */
+.banner { position: relative; }
+
+.photo {
+    width: 100%;
+    display: block;    
+}
+
+.pixel-art {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 66%;
+    border-right: 5px solid #000;
+}
+
+.pixeled {
+    width: 100%;
+}
+
+.actions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin: 116px 91px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.actions > .titles {
+    background-color: #3A4042;
+    padding: 40px;
+    text-shadow: 4px 4px 0 #000;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 38px;
+    box-shadow:  10px 10px 0 #000;
+    width: 100%;
+}
+
+.actions h1 {
+    font-size: 40px;
+    color: #F25A70;
+    margin-bottom: 28px;
+}
+
+.actions h2 {
+    font-size: 30px;
+    color: #FFFFFF;
 }
