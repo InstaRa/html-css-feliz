@@ -89,14 +89,6 @@ nav > a::before {
     flex-wrap: wrap;
 }
 
-.actions > .titles {
-    background-color: #3A4042;
-    padding: 40px;
-    margin-bottom: 38px;
-    box-shadow:  10px 10px 0 #000;
-    width: 100%;
-}
-
 .actions h1 {
     margin-bottom: 28px;
 }
