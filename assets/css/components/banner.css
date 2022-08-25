@@ -1,1 +1,5 @@
-.banner { position: relative; }
+.banner { 
+    position: relative; 
+    
+    border-bottom: 10px solid #000;
+}
