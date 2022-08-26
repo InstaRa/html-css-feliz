@@ -1,0 +1,58 @@
+.skills {
+    background-color: #F25A70;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #7C5E99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.skills .content .skill:nth-child(1n + 3) {
+    margin-top: 40px;
+}
+
+.skills .skill {
+    width: 45%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+}
+
+.skills .icon {
+    margin-right: 25px;
+    width: 90px;
+    align-self: center;
+}
+
+.skills .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+    flex-grow: 1;
+}
+
+.skills .skill .name {
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFFFF;
+}
+
+.skills .skill .bar {
+    display: block;
+    width: 100%;
+    border: 5px solid #000;
+    background-color: #FFF;
+    background: linear-gradient(90deg, #7C5E99 65%, #fff 35%);
+    box-sizing: border-box;
+    height: 30px;
+}
