@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="./assets/css/reset.1.0.0.css">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/components/banner.css">
-    <link rel="stylesheet" href="./assets/css/components/skills.css">
+    <link rel="stylesheet" href="./assets/css/components/skill-tec.css">
     <link rel="stylesheet" href="./assets/css/components/title.css">
     <link rel="stylesheet" href="./assets/css/components/subtitle.css">
     <link rel="stylesheet" href="./assets/css/components/box.css">
     <link rel="stylesheet" href="./assets/css/components/button.css">
     <link rel="stylesheet" href="./assets/css/components/action.css">
     <link rel="stylesheet" href="./assets/css/components/header.css">
+    <link rel="stylesheet" href="./assets/css/components/progress-bar.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
 
             <div class="actions">
                 <div class="box">
-                    <h1 class="title">
+                    <h1 class="main-title">
                         Insta<span class="mark">Ra</span>
                     </h1>
                     <h2 class="subtitle">Soluções Digitais</h2>
@@ -60,9 +61,40 @@
     </section>
 
     <section class="skills">
-        <h1 class="title -second">Skills</h1>
+        <h1 class="main-title -second">Skills</h1>
 
         <div class="content">
+            <!-- FORMA CORRETA DE SE FAZER - ALTERNATIVO -->
+
+            <article class="skill-tec">
+                <img class="icon" src="./assets/images/ico_html5.png" alt="Icone HTML 5">
+
+                <div class="detail">
+                    <h3 class="title">Html</h3>
+                    <span class="progress-bar"></span>
+                </div>
+            </article>
+
+            <!-- FORMA CORRETA DE SE FAZER -->
+            <!-- 
+            <dl class="skill-tec">
+                <dd class="icon">
+                    <img class="image" src="assets/images/ico_html5.png" alt="Icone HTML 5">
+                </dd>
+
+                <dt class="title">
+                    HTML
+                </dt>
+                
+                <dd class="bar">
+                    <progress class="progress-bar" value="10" max="50"> </progress>
+                    <span class="progress-bar"></span>
+                </dd>
+            </dl> 
+            -->
+
+            <!-- MINHA FORMA DE FAZER -->
+            <!-- 
             <div class="skill">
                 <img class="icon" src="assets/images/ico_html5.png" alt="Icone HTML 5">
                 <div class="details">
@@ -125,7 +157,8 @@
                     <h3 class="name">UX</h3>
                     <span class="bar"></span>
                 </div>
-            </div>
+            </div> 
+            -->
         </div>
     </section>
 

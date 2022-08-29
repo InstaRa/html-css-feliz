@@ -16,6 +16,37 @@
     flex-wrap: wrap;
 }
 
+
+.skill-tec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
+
+.skill-tec .title {    
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Press Start 2P', cursive;
+    flex-grow: 1;
+}
+
+.skill-tec .detail {
+    flex-grow: 1;
+}
+
+.skill-tec .progress-bar {
+    margin-top: 15px;
+}
+
+
+/* MINHA FORMA DE FAZER */
+
+/* 
+
 .skills .content .skill:nth-child(1n + 3) {
     margin-top: 40px;
 }
@@ -55,4 +86,9 @@
     background: linear-gradient(90deg, #7C5E99 65%, #fff 35%);
     box-sizing: border-box;
     height: 30px;
-}
+} 
+
+*/
+
+
+

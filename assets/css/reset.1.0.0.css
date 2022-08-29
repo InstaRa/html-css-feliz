@@ -4,8 +4,13 @@ body {
 
 body, h1, h2, h3, h4 {
     margin: 0;
+    box-sizing: border-box;
 }
 
 button {
     font-family: inherit;
+}
+
+progress {
+    box-sizing: border-box;
 }

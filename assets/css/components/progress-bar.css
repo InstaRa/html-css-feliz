@@ -1,0 +1,27 @@
+progress {
+    display: none;
+}
+
+/* 
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar {
+    background-color: #FFF;
+}
+
+.progress-bar::-webkit-progress-value,
+.progress-bar::-moz-progress-value {
+    background-color: #7C5E99;
+} 
+
+*/
+
+
+.progress-bar {
+    display: block;
+    border: 5px solid #000;
+    background: linear-gradient(90deg, #7C5E99 65%, #fff 35%);
+    box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+}
