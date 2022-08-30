@@ -1,4 +1,4 @@
-.project-tec {
+.card-project {
     width: 280px;
     height: 280px;
     display: flex;
@@ -8,14 +8,14 @@
     box-shadow: 10px 10px 0 #FFF;
 }
 
-.project-tec.-firedlabs {
+.card-project.-firedlabs {
     background-color: #7C5E99;
 }
 
-.project-tec.-collabecode {
+.card-project.-collabecode {
     background-color: #4C5B84;
 }
 
-.project-tec .title {
+.card-project .title {
     display: none;
 }
