@@ -1,4 +1,4 @@
-.button {
+.button-action {
     font-size: 20px;
     font-weight: 500;
     font-family: "Fira Code";
@@ -15,14 +15,14 @@
     transition: transform 100ms ease-in-out;
 }
 
-.button:hover {
+.button-action:hover {
     transform: scale(1.1)
 }
 
-.button {
+.button-action {
     margin: 0;
 }
 
-.button + .button {
+.button-action + .button-action {
     margin-left: 30px;
 }

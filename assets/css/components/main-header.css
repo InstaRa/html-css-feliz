@@ -1,4 +1,4 @@
-.header {
+.main-header {
     background-color: #7C5E99;
     padding: 10px 20px;
     border-bottom: 10px solid #000;
@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-.header .navigation {
+.main-header .navigation {
     text-align: right;
     display: inline-flex;
     align-items: center;

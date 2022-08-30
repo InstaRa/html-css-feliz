@@ -1,4 +1,4 @@
-.action {
+.nav-action {
     font-size: 20px;
     font-weight: 500;
     margin-right: 30px;
@@ -6,7 +6,7 @@
     color: #FFf;
 }
 
-.action::before {
+.nav-action::before {
     content: '';
     display: inline-block;
     width: 10px;
