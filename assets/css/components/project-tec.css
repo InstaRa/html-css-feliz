@@ -1,0 +1,21 @@
+.project-tec {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 10px 10px 0 #FFF;
+}
+
+.project-tec.-firedlabs {
+    background-color: #7C5E99;
+}
+
+.project-tec.-collabecode {
+    background-color: #4C5B84;
+}
+
+.project-tec .title {
+    display: none;
+}
