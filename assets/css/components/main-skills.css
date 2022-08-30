@@ -1,0 +1,23 @@
+.main-skills {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 10px solid #7C5E99;
+    background-color: #F25A70;
+}
+
+.main-skills .content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 960px;
+}
+
+.main-skills .content .skill-tec {
+    width: calc(50% - 50px);
+    margin-top: 40px;
+}
