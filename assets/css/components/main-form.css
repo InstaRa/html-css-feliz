@@ -1,0 +1,24 @@
+.main-form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-form .button-action {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main-form .form-input + .form-input {
+    margin-top: 20px;
+}
+
+.main-form .button-action:hover {
+    transform: none;
+    cursor: pointer;
+    
+}
+
+.main-form .button-action:active {
+    transform: scale(0.95);
+}
