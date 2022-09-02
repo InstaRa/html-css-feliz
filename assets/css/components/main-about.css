@@ -1,0 +1,22 @@
+.main-about {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 10px solid #F25A70;
+    background-color: #7C5E99;
+}
+
+.main-about .main-title {
+    margin-bottom: 40px;
+}
+
+.main-about .about {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 50px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.3;
+}

@@ -1,0 +1,39 @@
+.button-arrow {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+    border: none;
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+.button-arrow:active {
+    transform: scale(0.9);
+}
+
+.button-arrow::after {
+    display: block;
+    content: '';
+
+    border-top: none;
+    border-right: 12px solid transparent;
+    border-bottom: 20px solid #FFF;
+    border-left: 12px solid transparent;
+}
+
+.button-arrow.-next::after {
+    transform: rotate(90deg);
+}
+
+.button-arrow.-preview::after {
+    transform: rotate(-90deg);
+}
+
+.button-arrow .none {
+    display: none;
+}

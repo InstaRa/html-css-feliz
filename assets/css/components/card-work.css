@@ -1,0 +1,57 @@
+.card-work {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.card-work .title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #F25A70;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-work .title::after {
+    content: '';
+    height: 40px;
+    width: 5px;
+    border-left: 5px dashed #000;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-work .frame {    
+    height: 140px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #CEB02A;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-work.-nopad .frame {
+    padding: 0;
+}
+
+.card-work.-bgPrimary .frame {
+    background-color: #F25A70;
+}
+
+.card-work .logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-work .logo.-resize {
+    height: 100px;
+}

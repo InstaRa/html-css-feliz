@@ -27,3 +27,13 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+
+
+._none {
+    display: none;
+}
+
+._pad-0 {
+    padding: 0;
+}

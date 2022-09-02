@@ -1,0 +1,28 @@
+.main-works {
+    display: flex;
+    font-size: 25px;
+    line-height: 25px;
+    color: #F25A70;
+    font-family: 'Press Start 2P';
+    text-align: center;
+}
+
+.main-works .to-next,
+.main-works .to-preview {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.main-works .time-line {
+    border-bottom: 5px dashed #000;
+    margin-top: 25px;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.main-works .arrow-next,
+.main-works .arrow-preview {
+    transform: translateY(-30%);
+}

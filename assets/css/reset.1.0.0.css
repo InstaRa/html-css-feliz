@@ -2,7 +2,7 @@ body {
     font-family: "Fira Code", sans-serif;
 }
 
-body, h1, h2, h3, h4 {
+body, h1, h2, h3, h4, ul, ol, li, figure {
     margin: 0;
     box-sizing: border-box;
 }
@@ -13,4 +13,15 @@ button {
 
 progress {
     box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0;
+}
+
+img { 
+    display: block;
+    padding: 0;
+    margin: 0;
 }
