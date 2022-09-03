@@ -13,9 +13,21 @@
     align-items: center;
 }
 
+.main-header .menu {
+    display: none;
+    width: 40px;
+    align-self: center;
+    image-rendering: pixelated;
+}
+
+
 
 @media screen and (max-width: 980px){
     .main-header .navigation {
         display: none;
+    }
+
+    .main-header .menu {
+        display: block;
     }
 }
