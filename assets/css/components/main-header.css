@@ -12,3 +12,10 @@
     display: inline-flex;
     align-items: center;
 }
+
+
+@media screen and (max-width: 980px){
+    .main-header .navigation {
+        display: none;
+    }
+}
