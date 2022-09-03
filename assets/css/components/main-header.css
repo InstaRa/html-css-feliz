@@ -2,7 +2,7 @@
     background-color: #7C5E99;
     padding: 10px 20px;
     border-bottom: 10px solid #000;
-    
+
     display: flex;
     justify-content: space-between;
 }
@@ -20,9 +20,12 @@
     image-rendering: pixelated;
 }
 
+.main-header .icon-close {
+    display: none;
+}
 
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) {
     .main-header .navigation {
         display: none;
     }
@@ -50,5 +53,13 @@
         gap: 20px;
         background-color: #000;
         padding: 20px;
+    }
+
+
+    .main-header .icon-close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 }
