@@ -184,6 +184,7 @@
         <h1 class="main-title -second">Sobre</h1>
 
         <section class="main-carousel">
+            <h3 style="display: none">Time line de trabalhos</h3>
             <button class="button-arrow -preview">
                 <span class="none">Voltar</span>
             </button>
@@ -262,20 +263,20 @@
 
             <div class="form-input">
                 <label for="name" class="description">Nome</label>
-                <input type="text" class="input" name="name" id="name" value="" >
+                <input required type="text" class="input" name="name" id="name" value="" >
             </div>
 
             <div class="form-input">
                 <label for="email" class="description">Email</label>
-                <input type="email" class="input" name="email" id="email" value="" >
+                <input required type="email" class="input" name="email" id="email" value="" >
             </div>
 
             <div class="form-input">
-                <label for="message " class="description">Mensagem</label>
-                <textarea class="input" name="message" id="message" rows="10" ></textarea>
+                <label for="message" class="description">Mensagem</label>
+                <textarea required class="input" name="message" id="message" rows="10" ></textarea>
             </div>
 
-            <button class="button-action">Enviar</button>
+            <input type="submit" class="button-action" value="Enviar">
         </form>
     </section>
 
